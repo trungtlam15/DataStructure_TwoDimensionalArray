@@ -40,6 +40,24 @@ def print_on_and_below_secondary_diagonal(twod_array):
             if i + j >= len(twod_array) - 1:
                 print(twod_array[i][j])
 
+def sum_row(twod_array):
+    sum_row = 0
+    choosing_row = int(input("enter row index"))
+    for i in range(len(twod_array)):
+            sum_row = sum_row + twod_array[choosing_row][i]
+    print(sum_row)
+
+def sum_column(twod_array):
+    sum_column = 0
+    choosing_column = int(input("enter column index"))
+    for i in range(len(twod_array)):
+        sum_column = sum_column + twod_array[i][choosing_column]
+    print(sum_column)
+
+
+
+
+
 
 if __name__ == '__main__':
     T = [[11, 12, 5, 2], [15, 6, 10, 7], [10, 8, 12, 5], [12, 15, 8, 6]]
@@ -55,3 +73,8 @@ if __name__ == '__main__':
     # print_above_secondary_diagonal(T)
 
     # print_on_and_below_secondary_diagonal(T)
+
+    # sum_row(T)
+
+    # sum_column(T)
+
