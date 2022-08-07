@@ -28,6 +28,18 @@ def print_on_and_below_primary_diagonal(twod_array):
             if j <= i:
                 print(twod_array[i][j])
 
+def print_above_secondary_diagonal(twod_array):
+    for i in range(len(twod_array)):
+        for j in range(len(twod_array[i])):
+            if i + j < len(twod_array) - 1:
+                print(twod_array[i][j])
+
+def print_on_and_below_secondary_diagonal(twod_array):
+    for i in range(len(twod_array)):
+        for j in range(len(twod_array[i])):
+            if i + j >= len(twod_array) - 1:
+                print(twod_array[i][j])
+
 
 if __name__ == '__main__':
     T = [[11, 12, 5, 2], [15, 6, 10, 7], [10, 8, 12, 5], [12, 15, 8, 6]]
@@ -39,3 +51,7 @@ if __name__ == '__main__':
     # print_above_primary_diagonal(T)
 
     # print_on_and_below_primary_diagonal(T)
+
+    # print_above_secondary_diagonal(T)
+
+    # print_on_and_below_secondary_diagonal(T)
