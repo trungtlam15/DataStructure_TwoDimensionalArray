@@ -4,6 +4,9 @@ def print_two_dimensional_array(twod_array):
       print(column, '\t', end='')
     print()
     print('11')
+    print('11')
+    print('11')
+    print('11')
 
 
 
