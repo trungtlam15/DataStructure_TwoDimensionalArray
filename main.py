@@ -16,6 +16,7 @@ def check_two_dimensional_array(twod_array):
         column_max = j
         max_value = twod_array[i][j]
   print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
+  print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
 
 
 def print_above_primary_diagonal(twod_array):
