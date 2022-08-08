@@ -1,6 +1,6 @@
 
 def print_two_dimensional_array(twod_array):
-    for row in twod_a:
+    for row in twod_array:
         for column in row:
             print(column)
 
