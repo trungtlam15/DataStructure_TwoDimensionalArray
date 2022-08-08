@@ -3,7 +3,7 @@ def print_two_dimensional_array(twod_array):
     for column in row:
       print(column, '\t', end='')
     print()
-    print('3')
+    print('1')
 
 
 def check_two_dimensional_array(twod_array):
@@ -16,6 +16,7 @@ def check_two_dimensional_array(twod_array):
         row_max = i
         column_max = j
         max_value = twod_array[i][j]
+  print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
   print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
   print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
 
