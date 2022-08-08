@@ -3,10 +3,11 @@ def print_two_dimensional_array(twod_array):
     for column in row:
       print(column, '\t', end='')
     print()
-    print('3')
+    print('2')
 
 
 def check_two_dimensional_array(twod_array):
+  row_max = 0
   row_max = 0
   column_max = 0
   max_value = twod_array[row_max][column_max]
