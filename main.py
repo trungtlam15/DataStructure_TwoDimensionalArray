@@ -49,11 +49,18 @@ def sum_row(twod_array):
 
 def sum_column(twod_array):
     sum_column = 0
-    choosing_column = int(input("enter column index"))
+    choosing_column = int(input("enter column index: "))
     for i in range(len(twod_array)):
         sum_column = sum_column + twod_array[i][choosing_column]
     print(sum_column)
 
+def find_max_in_row(twod_array):
+    choosing_row = int(input("enter row index: "))
+    for i in range(len(twod_array)):
+        max_row = twod_array[choosing_row][i]
+        if twod_array[choosing_row][i] > max_row:
+            max_row = twod_array[choosing_row][i]
+    print(max_row)
 
 
 
@@ -77,4 +84,6 @@ if __name__ == '__main__':
     # sum_row(T)
 
     # sum_column(T)
+
+    find_max_in_row(T)
 
