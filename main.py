@@ -2,13 +2,8 @@ def print_two_dimensional_array(twod_array):
   for row in twod_array:
     for column in row:
       print(column, '\t', end='')
-    print()
-    print('11')
-
-
 
 def check_two_dimensional_array(twod_array):
-  row_max = 0
   row_max = 0
   column_max = 0
   max_value = twod_array[row_max][column_max]
@@ -18,8 +13,6 @@ def check_two_dimensional_array(twod_array):
         row_max = i
         column_max = j
         max_value = twod_array[i][j]
-  print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
-  print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
   print("max row ", row_max, "max colum ", column_max, "max value ", max_value)
 
 
