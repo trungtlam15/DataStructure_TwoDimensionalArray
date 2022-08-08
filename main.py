@@ -3,7 +3,7 @@ def print_two_dimensional_array(twod_array):
     for column in row:
       print(column, '\t', end='')
     print()
-    print('2')
+    print('3')
 
 
 def check_two_dimensional_array(twod_array):
